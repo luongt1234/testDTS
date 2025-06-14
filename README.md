@@ -10,16 +10,18 @@
 - Soft delete người dùng
 - Middleware bảo vệ route
 
-## 📁 Cấu trúc thư mục
+## Cấu trúc thư mục
 
+```plaintext
 src/
-│
-├── controllers/ # Xử lý logic API
-├── models/ # Định nghĩa mongoose schemas
-├── routers/ # Định tuyến API
-├── middleware/ # Middleware xác thực & phân quyền
-├── lib/ # Tiện ích (utils, token, hash,...)
-└── server.js # Điểm khởi chạy ứng dụng
+├── config/           # các config cần thiết
+├── controllers/      # Xử lý logic API
+├── models/           # Định nghĩa mongoose schemas
+├── routers/          # Định tuyến API
+├── middleware/       # Middleware xác thực & phân quyền
+├── lip/              # Tiện ích (utils, token, hash,...)
+└── server.js         # Điểm khởi chạy ứng dụng
+```
 
 ## Công nghệ sử dụng
 - Node.js
